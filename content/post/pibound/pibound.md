@@ -4,8 +4,6 @@ date: 2020-10-09T13:26:43Z
 draft: false
 ---
 
-![https://github.com/kentishh/pi-bound](pi-bound.png)
-
 [PiBound](https://github.com/kentishh/pi-bound) is a project built out of love for PiHole and privacy. I wanted to make it as simple as possible to install PiHole and make use of Unbound to be your network's recursive DNS server. Moving away from using your ISP's, Google's or Cloudflare's DNS service is a great way to reduce the amount of eyes that can potentially monitor your internet usage and browsing habits. When we use Unbound as our DNS server, you eliminate the upstream DNS service, becoming your own DNS provider.
 
 
@@ -58,5 +56,3 @@ dig networkchuck.coffee @8.8.8.8 | grep "Query"
 ```
 
 These query time differences are negligable and will not have a noticeable impact on general performance.
-
-
